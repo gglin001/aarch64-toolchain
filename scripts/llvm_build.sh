@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# $PWD is `.../riscv-toolchain`
+# $PWD is `.../aarch64-toolchain`
 ln -s $PWD/scripts/CMakePresets.json $PWD/llvm-project/llvm/CMakePresets.json
 
 pushd llvm-project
